@@ -9,7 +9,6 @@ int main()
 {
 int p[20],bt[20],pri[20], wt[20],tat[20],i, k, n, temp; float wtavg,
 tatavg;
-clrscr();
 printf("Enter the number of processes --- ");
 scanf("%d",&n);
 for(i=0;i<n;i++){
@@ -42,7 +41,7 @@ tatavg = tatavg + tat[i];
 printf("\nPROCESS\t\tPRIORITY\tBURST TIME\tWAITING TIME\tTURNAROUNDTIME");
 for(i=0;i<n;i++)
 printf("\n%d \t\t %d \t\t %d \t\t %d \t\t %d ",p[i],pri[i],bt[i],wt[i],tat[i]);
-printf("\nAverage Waiting Time is --- %f",wtavg/n); printf("\nAverage
-Turnaround Time is --- %f",tatavg/n);
+printf("\nAverage Waiting Time is --- %f",wtavg/n);
+   printf("\nAverageTurnaround Time is --- %f",tatavg/n);
 return 0;
   }
