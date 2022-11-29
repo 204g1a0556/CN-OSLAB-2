@@ -5,7 +5,7 @@
    Date of Execution: 18-10-2022
 */
 #include<stdio.h>
-oint main()
+int main()
 {
 int buffer[10], bufsize, in, out, produce, consume,choice=0; in = 0;out = 0;
 bufsize = 10;
